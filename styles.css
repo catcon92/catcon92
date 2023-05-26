@@ -16,11 +16,11 @@
 }
 @font-face {
 	font-family: "popstar";
-	src: url('fonts/POPSTAR.ttf') format('truetype');
+	src: url('fonts/POPSTAR.TTF') format('truetype');
 }
 @font-face {
 	font-family: "planetkosmos";
-	src: url('fonts/planetkosmos.ttf') format('truetype');
+	src: url('fonts/planetkosmos.TTF') format('truetype');
 }
 @font-face {
 	font-family: "vtc";
