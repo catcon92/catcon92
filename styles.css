@@ -4,27 +4,27 @@
 
 @font-face {
 	font-family: "excelate";
-	src: url('fonts/excelate.ttf') format('truetype');
+	src: url('/fonts/excelate.ttf') format('truetype');
 }
 @font-face {
 	font-family: "excelateO";
-	src: url('fonts/Excelateo.ttf') format('truetype');
+	src: url('/fonts/Excelateo.ttf') format('truetype');
 }
 @font-face {
 	font-family: "canterbury";
-	src: url('fonts/canterbury.regular.ttf') format('truetype');
+	src: url('/fonts/canterbury.regular.ttf') format('truetype');
 }
 @font-face {
 	font-family: "popstar";
-	src: url('fonts/POPSTAR.TTF') format('truetype');
+	src: url('/fonts/POPSTAR.TTF') format('truetype');
 }
 @font-face {
 	font-family: "planetkosmos";
-	src: url('fonts/planetkosmos.TTF') format('truetype');
+	src: url('/fonts/planetkosmos.TTF') format('truetype');
 }
 @font-face {
 	font-family: "vtc";
-	src: url('fonts/vtc.ttf') format('truetype');
+	src: url('/fonts/vtc.ttf') format('truetype');
 }
 
 /*---------------*/
