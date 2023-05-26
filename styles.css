@@ -1,0 +1,269 @@
+/*-------*/
+/* FONTS */
+/*-------*/
+
+@font-face {
+	font-family: "excelate";
+	src: url('fonts/excelate.ttf') format('truetype');
+}
+@font-face {
+	font-family: "excelateO";
+	src: url('fonts/Excelateo.ttf') format('truetype');
+}
+@font-face {
+	font-family: "canterbury";
+	src: url('fonts/canterbury.regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: "popstar";
+	src: url('fonts/POPSTAR.ttf') format('truetype');
+}
+@font-face {
+	font-family: "planetkosmos";
+	src: url('fonts/planetkosmos.ttf') format('truetype');
+}
+@font-face {
+	font-family: "vtc";
+	src: url('fonts/vtc.ttf') format('truetype');
+}
+
+/*---------------*/
+/* MAIN ELEMENTS */
+/*---------------*/
+
+body {
+	background-image: url('img/page/stars.gif');
+	color: white;
+}
+
+.text {
+	font-family: "vtc";
+	font-size: 20px;
+	text-shadow: 1px 1px black, -1px -1px black, 0px 0px 6px white;
+}
+
+.main {
+	position: relative;
+
+	height: 900px;
+	width: 900px;
+
+	margin: auto;
+	margin-top: 120px;
+	background-color: #1F1F21;
+	outline: 1px solid white;
+	border-radius: 10px;
+} 
+
+.footer {
+	position: relative;
+	height: 20px;
+	width: 900px;
+
+	margin: auto;
+	margin-top: 10px;
+	background-color: #1F1F21;
+	outline: 1px solid white;
+	border-radius: 10px;
+	overflow: hidden;
+
+	font-family: "planetkosmos";
+	font-size: 30px;
+	line-height: 120%;
+	color: white;
+
+}
+
+.spacer {
+	position: relative;
+	height: 90px;
+	width: 900px;
+
+	margin: auto;
+	margin-top: 10px;
+
+	font-family: "vtc";
+	font-size: 10px;
+	text-align: center;
+	color: white;
+}
+
+#title {
+	position: absolute;
+
+	margin-top: -28px;
+	margin-left: 10px;
+	font-family: "excelate";
+	font-size: 66px;
+	color: #FF7400;
+	text-align: center;
+	text-shadow: -1px -1px white, 1px 1px white, 0px 0px 16px white;
+
+}
+
+/*-------------------*/
+/* INDEX, UPPER HALF */
+/*-------------------*/
+
+#pfpbox {
+	position: absolute;
+
+	height: 280px;
+	width: 260px;
+
+	background-color: #FF7400;
+	outline: 1px solid white;
+	border-radius: 4px;
+
+	margin-top: 60px;
+	margin-left: 25px;
+}
+
+.boxtitle {
+	position: absolute;
+	
+	height: 20px;
+
+	font-family: "popstar";
+	font-size: 20px;
+	line-height: 100%;
+
+	margin-top: 1px;
+	margin-left: 5px;
+}
+
+.exiticon {
+	position: absolute;
+
+	height: 20px;
+	width: 20px;
+
+	font-family: "popstar";
+	font-size: 20px;
+	line-height: 100%;
+
+}
+
+.boxcontent {
+	position: absolute;
+
+	background-color: darkgrey;
+	outline: 1px solid white;
+	border-radius: 4px;
+	overflow: hidden;
+
+	margin-top: 25px;
+	margin-left: 5px;
+
+}
+
+#textbox1 {
+	position: absolute;
+
+	height: 280px;
+	width: 280px;
+	box-sizing: border-box;
+
+	padding: 10px;
+	outline: 1px dashed white;
+	border-radius: 4px;
+
+	margin-top: 60px;
+	margin-left: 300px;
+
+	z-index: 1;
+}
+
+.navbox {
+	position: absolute;
+
+	height: 200px;
+	width: 320px;
+	/* background-color: skyblue; */
+
+	margin-top: 160px;
+	margin-left: 750px;
+
+	z-index: 2;
+
+}
+
+.navigation {
+	height: 30px;
+	width: 250px;
+
+	font-family: "popstar";
+	font-size: 20px;
+	line-height: 100%;
+
+	background-color: #FF7400;
+	border: 1px solid white;
+	color: white;
+	border-radius: 30px 0px 30px 0px;
+	box-shadow: 0px 0px 10px white;
+
+	margin-top: 7px;
+}
+
+#textbox2 {
+	position: absolute;
+
+	margin-top: -60px;
+	margin-left: 420px;
+
+	z-index: 0;
+}
+
+/*-------------------*/
+/* INDEX, LOWER HALF */
+/*-------------------*/
+
+#textbox3 {
+	position: absolute;
+
+	height: 300px;
+	width: 600px;
+
+	background-color: #FF7400;
+	outline: 1px solid white;
+	border-radius: 4px;
+
+	margin-top: 400px;
+	margin-left: 330px;
+
+	z-index: 3;
+
+}
+
+#textbox4 {
+	position: absolute;
+
+	height: 320px;
+	width: 300px;
+
+	background-color: #FF7400;
+	outline: 1px solid white;
+	border-radius: 4px;
+
+	margin-top: 520px;
+	margin-left: 60px;
+
+	z-index: 9;
+
+}
+
+#sidetext {
+	position: absolute;
+
+	height: 120px;
+
+	font-family: "canterbury";
+	font-size: 100px;
+	/* background-color: red; */
+	color: black;
+	text-shadow: -1px -1px white, 1px 1px white;
+	transform: rotate(-90deg);
+
+	margin-top: 570px;
+	margin-left: -293px;
+}
